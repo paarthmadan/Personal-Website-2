@@ -1,0 +1,178 @@
+h1{
+	font-family: 'Roboto Condensed';
+	font-size: 70px;
+	font-weight: 300;
+	color: white;
+	text-align: center;
+}
+
+#title{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	text-align: center;
+	color: #21b0cd;
+	line-height: 100vh;
+	font-size: 150px;
+	font-family: 'Oswald', sans-serif;
+	background-color: #E0E4CC;
+	z-index: 50;
+}
+
+
+
+
+
+#orange{
+	color: #FA6900;
+}
+
+.box{
+	left: 0vw;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	z-index: 50;
+	
+}
+
+#first{
+	top: 100vh;
+	background-color: #A7DBDB;
+
+}
+
+#second{
+	position: relative;
+	margin-top: 200vh;
+	background-color: #F38630;
+
+}
+
+#third{
+	top: 375vh;
+	background-color: #69D2E7;
+	z-index: 50;
+
+}
+
+#parallax{
+	position: fixed;
+	top: 0vh;
+	left: 0;
+	width: 100vw;
+	height: 125vh;
+	text-align: center;
+	color: #21b0cd;
+	line-height: 100vh;
+	font-size: 150px;
+	font-family: 'Oswald', sans-serif;
+	background-color: #E0E4CC;
+	z-index: 0;
+}
+
+
+#aboutme{
+position: relative;
+margin-top: 25px;
+margin-left: 75px;
+margin-right: 75px;
+font-family: 'Roboto Condensed';
+font-weight: 300;
+font-size: 36px;
+margin-bottom: 0px;
+color: #F0F8FF;
+
+
+
+}
+
+
+#boxtitle{
+	margin-top: 5vh;
+}
+
+
+@media(max-width: 1500px){
+	#aboutme{
+		margin-right: 60px;
+		margin-left: 60px;
+	}
+}
+
+@media (max-width: 1000px) {
+	#title{
+		font-size: 110px;
+	}
+
+	#parallax{
+		font-size: 110px;
+	}
+
+	#aboutme{
+		margin-right: 60px;
+		margin-left: 60px;
+	}
+
+}
+
+@media (max-width: 768px) {
+	#title{
+		font-size: 90px;
+	}
+	#parallax{
+		font-size: 90px;
+	}
+
+	#boxtitle{
+		font-size: 55px;
+	}
+
+
+}
+
+@media (max-width: 640px) {
+	#title{
+		font-size: 70px;
+	}
+	#parallax{
+		font-size: 70px;
+	}
+}
+
+@media (max-width: 480px) {
+	#title{
+		font-size: 50px;
+	}
+	#parallax{
+		font-size: 50px;
+	}
+}
+@media (max-width: 320px) {
+	#title{
+		font-size: 30px;
+	}
+	#parallax{
+		font-size: 30px;
+	}
+
+	#boxtitle{
+		font-size: 40px;
+	}
+}
+
+
+#underlined{
+	border-bottom: 1px dashed #999;
+}
+
+#hover{
+	
+	opacity: .6;
+}
+#hover:hover{
+opacity: 1;
+}
+
