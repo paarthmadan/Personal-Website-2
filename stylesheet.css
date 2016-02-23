@@ -1,3 +1,5 @@
+
+
 h1{
 	font-family: 'Roboto Condensed';
 	font-size: 70px;
@@ -169,10 +171,30 @@ color: #F0F8FF;
 }
 
 #hover{
-	
-	opacity: .6;
+	width: 85px;
+	height: 85px;
+	margin-top: 17.5vh;
+	opacity: .75;
 }
 #hover:hover{
 opacity: 1;
 }
 
+
+.fb{
+	position: absolute;
+	margin-left: 23.5vw;
+	
+}
+
+.gh{
+	position: absolute;
+	margin-left: 41vw;
+	
+}
+
+.tw{
+	position: absolute;
+	margin-left: 57.5vw;
+	
+}
